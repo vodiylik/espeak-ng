@@ -122,10 +122,13 @@
     z    z
 
 .group ~
-    D_) ~ (_C   'inchiN' //work
-    D_) ~ (_A   'inchiC'
-    D_) ~ (_yil   'inchif'
-    ~
+    D_) ~ (_C   'yntSy' //work
+    D_) ~ (_A   'yntSy
+     2_) ~ (_yil 'yntSy
+     6_) ~ (_yil 'yntSy
+     7_) ~ (_yil 'yntSy
+    D_) ~ (_yil   'yntSy
+        ~
 .group
     ʻ     ?
     ó     o:
