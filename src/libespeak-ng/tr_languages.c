@@ -497,18 +497,11 @@ Translator *SelectTranslator(const char *name)
 	case L('q', 'u'):
 	case L3('q', 'u', 'c'):
 	case L('t', 'h'):
+//	case L('u', 'z'):
 	{
 		tr->langopts.numbers = 0; // disable numbers until the definition are complete in _list file
 	}
 		break;
-
-	// WIP: customization for uzbek language
-	// Shukrullo Turgunov (a.k.a Vodiylik)
-	case L('u', 'z'):
-		{
-			// tr->langopts.numbers = NUM_AND_UNITS;
-		} break;
-
 	case L('a', 'f'):
 	{
 		static const short stress_lengths_af[8] = { 170, 140, 220, 220,  0, 0, 250, 270 };
