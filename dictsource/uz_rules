@@ -39,6 +39,7 @@
     ъ    ʼ
     ‘    ʻ  // Replace left single quotation mark to  modifier letter turned comma
     '    ʻ  // apostrophe to modifier letter turned comma
+    -    ~   // replace - to ~ for correct pronunciation
 
 
 .group a
@@ -122,12 +123,12 @@
     z    z
 
 .group ~
-    D_) ~ (_C   'yntSy' //work
-    D_) ~ (_A   'yntSy
-     2_) ~ (_yil 'yntSy
-     6_) ~ (_yil 'yntSy
-     7_) ~ (_yil 'yntSy
-    D_) ~ (_yil   'yntSy
+    2_) ~ (_yil ntSy
+    6_) ~ (_yil ntSy
+    7_) ~ (_yil ntSy
+    D_) ~ (_C   yntSy //work
+    D_) ~ (_A   yntSy
+    D_) ~ (_yil   yntSy
         ~
 .group
     ʻ     ?
