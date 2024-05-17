@@ -506,7 +506,9 @@ Translator *SelectTranslator(const char *name)
 	// Shukrullo Turgunov (a.k.a Vodiylik)
 	case L('u', 'z'):
 		{
-			// tr->langopts.numbers = NUM_AND_UNITS;
+			SetCyrillicLetters(tr);
+			tr->langopts.numbers = NUM_DECIMAL_COMMA  | NUM_ALLOW_SPACE | NUM_DFRACTION_2;
+			tr->langopts.max_initial_consonants = 2;
 		} break;
 
 	case L('a', 'f'):
