@@ -502,6 +502,17 @@ Translator *SelectTranslator(const char *name)
 		tr->langopts.numbers = 0; // disable numbers until the definition are complete in _list file
 	}
 		break;
+
+	// WIP: customization for uzbek language
+	// Shukrullo Turgunov (a.k.a Vodiylik)
+	case L('u', 'z'):
+		{
+			SetCyrillicLetters(tr);
+			tr->langopts.numbers = NUM_DECIMAL_COMMA  | NUM_ALLOW_SPACE | NUM_DFRACTION_2;
+			tr->langopts.max_initial_consonants = 2;
+		} 
+      break;
+      
 	case L('a', 'f'):
 	{
 		static const short stress_lengths_af[8] = { 170, 140, 220, 220,  0, 0, 250, 270 };
