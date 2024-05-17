@@ -497,6 +497,7 @@ Translator *SelectTranslator(const char *name)
 	case L('q', 'u'):
 	case L3('q', 'u', 'c'):
 	case L('t', 'h'):
+//	case L('u', 'z'):
 	{
 		tr->langopts.numbers = 0; // disable numbers until the definition are complete in _list file
 	}
@@ -509,8 +510,9 @@ Translator *SelectTranslator(const char *name)
 			SetCyrillicLetters(tr);
 			tr->langopts.numbers = NUM_DECIMAL_COMMA  | NUM_ALLOW_SPACE | NUM_DFRACTION_2;
 			tr->langopts.max_initial_consonants = 2;
-		} break;
-
+		} 
+      break;
+      
 	case L('a', 'f'):
 	{
 		static const short stress_lengths_af[8] = { 170, 140, 220, 220,  0, 0, 250, 270 };

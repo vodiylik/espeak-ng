@@ -40,6 +40,7 @@
     ‘    ʻ  // Replace left single quotation mark to  modifier letter turned comma
     '    ʻ  // apostrophe to modifier letter turned comma
 
+
 .group a
     a    &
 
@@ -120,9 +121,18 @@
 .group z
     z    z
 
+.group ~
+    D_) ~ (_C   'yntSy' //work
+    D_) ~ (_A   'yntSy
+     2_) ~ (_yil 'yntSy
+     6_) ~ (_yil 'yntSy
+     7_) ~ (_yil 'yntSy
+    D_) ~ (_yil   'yntSy
+        ~
 .group
     ʻ     ?
     ó     o:
     ǵ     Q"
     ş     S
     ç     tS
+
